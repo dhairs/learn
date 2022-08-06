@@ -7,8 +7,10 @@ export default function Home() {
     <div>
       <h1>Welcome to my Learning Portal!</h1>
       <h3>
-        Here, you'll find resources I've made across my highschool experience
-        that you <i>hopefully</i> find useful
+        {
+          "Here, youll find resources I've made across my highschool experience that you"
+        }{" "}
+        <i>hopefully</i> find useful
       </h3>
     </div>
   );
