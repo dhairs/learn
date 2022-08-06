@@ -4,11 +4,11 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.main}>
       <h1>Welcome to my Learning Portal!</h1>
       <h3>
         {
-          "Here, youll find resources I've made across my highschool experience that you"
+          "Here, you'll find resources I've made across my highschool experience that you"
         }{" "}
         <i>hopefully</i> find useful
       </h3>
