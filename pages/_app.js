@@ -1,13 +1,12 @@
-import Navbar from "../components/navbar";
+import Layout from "../components/layout";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+function LearnApp({ Component, pageProps, router }) {
   return (
-    <div>
-      <Navbar />
+    <Layout router={router}>
       <Component {...pageProps} />
-    </div>
+    </Layout>
   );
 }
 
-export default MyApp;
+export default LearnApp;

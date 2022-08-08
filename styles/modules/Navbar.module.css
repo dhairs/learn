@@ -4,6 +4,47 @@
     max-height: 68px;
     min-width: 100vw;
     transition: 0.33s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p {
+    color: white;
+    margin: 0;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-links {
+    margin-right: 1.5rem;
+    color: white;
+    
+}
+.navbar-link {
+    display: inline-block;
+}
+
+.navbar-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.navbar-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.navbar-main a {
+    color: white;  
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
